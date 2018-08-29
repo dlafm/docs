@@ -5,7 +5,7 @@ Lets say you're developing a module/app that adds/removes functionality to/from 
 
 First of all, create and install a [module](https://akaunting.com/docs/developer-manual/modules).
 
-Then add the folowing code into the `boot` method of your `ServiceProvider`. [Here](https://laravel.com/docs/5.4/views#view-composers) you can learn more about view composers.
+Then add the following code into the `boot` method of your `ServiceProvider`. [Here](https://laravel.com/docs/5.4/views#view-composers) you can learn more about view composers.
 
 ```
 View::composer(
